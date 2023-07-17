@@ -2,6 +2,7 @@ import { Stack } from "@mui/material";
 import { ButtonMUI } from "./components/buttonMUI";
 import { TypographyMUI } from "./components/typographyMUI";
 import { TextFieldMUI } from "./components/textFieldMUI";
+import { SelectMUI } from "./components/selectMUI";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <TypographyMUI />
         <ButtonMUI />
         <TextFieldMUI/>
+        <SelectMUI/>
       </Stack>
     </>
   );

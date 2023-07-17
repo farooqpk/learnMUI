@@ -3,6 +3,7 @@ import { ButtonMUI } from "./components/buttonMUI";
 import { TypographyMUI } from "./components/typographyMUI";
 import { TextFieldMUI } from "./components/textFieldMUI";
 import { SelectMUI } from "./components/selectMUI";
+import { RadioMUI } from "./components/radioMUI";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <ButtonMUI />
         <TextFieldMUI/>
         <SelectMUI/>
+        <RadioMUI/>
       </Stack>
     </>
   );

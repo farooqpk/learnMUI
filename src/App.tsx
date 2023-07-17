@@ -5,11 +5,9 @@ import { TypographyMUI } from "./components/typographyMUI";
 function App() {
   return (
     <>
-      <Stack alignItems={"center"} spacing={10} direction={'column'}>
-
-        <TypographyMUI/>
+      <Stack gap={7}>
+        <TypographyMUI />
         <ButtonMUI />
-
       </Stack>
     </>
   );

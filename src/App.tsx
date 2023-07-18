@@ -10,6 +10,7 @@ import { RatingMUI } from "./components/ratingMUI";
 import { AutoCompleteMUI } from "./components/autoCompleteMUI";
 import { LayoutMUI } from "./components/layoutMUI";
 import { CardMUI } from "./components/cardMUI";
+import { AccordianMUI } from "./components/accordianMUI";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <AutoCompleteMUI />
         <LayoutMUI/>
         <CardMUI/>
+        <AccordianMUI/>
       </Stack>
     </>
   );

@@ -14,6 +14,7 @@ import { AccordianMUI } from "./components/accordianMUI";
 import { MUIresponsiveness } from "./components/MUIresponsiveness";
 import { NavbarMUI } from "./components/navbarMUI";
 import { TableMUI } from "./components/tableMUI";
+import { ListMUI } from "./components/listMUI";
 
 const theme = createTheme({
   palette: {
@@ -46,6 +47,7 @@ function App() {
           <AccordianMUI />
           <MUIresponsiveness />
           <TableMUI/>
+          <ListMUI/>
         </Stack>
       </ThemeProvider>
     </>

@@ -12,6 +12,7 @@ import { LayoutMUI } from "./components/layoutMUI";
 import { CardMUI } from "./components/cardMUI";
 import { AccordianMUI } from "./components/accordianMUI";
 import { MUIresponsiveness } from "./components/MUIresponsiveness";
+import { NavbarMUI } from "./components/navbarMUI";
 
 const theme = createTheme({
   palette: {
@@ -29,6 +30,7 @@ function App() {
     <>
       <ThemeProvider theme={theme}>
         <Stack gap={7}>
+          <NavbarMUI />
           <TypographyMUI />
           <ButtonMUI />
           <TextFieldMUI />

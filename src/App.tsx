@@ -11,6 +11,7 @@ import { AutoCompleteMUI } from "./components/autoCompleteMUI";
 import { LayoutMUI } from "./components/layoutMUI";
 import { CardMUI } from "./components/cardMUI";
 import { AccordianMUI } from "./components/accordianMUI";
+import { MUIresponsiveness } from "./components/MUIresponsiveness";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <LayoutMUI/>
         <CardMUI/>
         <AccordianMUI/>
+        <MUIresponsiveness/>
       </Stack>
     </>
   );

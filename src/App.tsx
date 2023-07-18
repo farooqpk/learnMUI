@@ -13,6 +13,7 @@ import { CardMUI } from "./components/cardMUI";
 import { AccordianMUI } from "./components/accordianMUI";
 import { MUIresponsiveness } from "./components/MUIresponsiveness";
 import { NavbarMUI } from "./components/navbarMUI";
+import { TableMUI } from "./components/tableMUI";
 
 const theme = createTheme({
   palette: {
@@ -44,6 +45,7 @@ function App() {
           <CardMUI />
           <AccordianMUI />
           <MUIresponsiveness />
+          <TableMUI/>
         </Stack>
       </ThemeProvider>
     </>

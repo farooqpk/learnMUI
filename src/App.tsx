@@ -7,6 +7,7 @@ import { RadioMUI } from "./components/radioMUI";
 import { CheckboxMUI } from "./components/checkboxMUI";
 import { SwichMUI } from "./components/swichMUI";
 import { RatingMUI } from "./components/ratingMUI";
+import { AutoCompleteMUI } from "./components/autoCompleteMUI";
 
 function App() {
   return (
@@ -18,8 +19,9 @@ function App() {
         <SelectMUI />
         <RadioMUI />
         <CheckboxMUI />
-        <SwichMUI/>
-        <RatingMUI/>
+        <SwichMUI />
+        <RatingMUI />
+        <AutoCompleteMUI />
       </Stack>
     </>
   );

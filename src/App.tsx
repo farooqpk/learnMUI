@@ -8,6 +8,7 @@ import { CheckboxMUI } from "./components/checkboxMUI";
 import { SwichMUI } from "./components/swichMUI";
 import { RatingMUI } from "./components/ratingMUI";
 import { AutoCompleteMUI } from "./components/autoCompleteMUI";
+import { LayoutMUI } from "./components/layoutMUI";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <SwichMUI />
         <RatingMUI />
         <AutoCompleteMUI />
+        <LayoutMUI/>
       </Stack>
     </>
   );

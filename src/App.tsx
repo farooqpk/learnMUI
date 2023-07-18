@@ -9,6 +9,7 @@ import { SwichMUI } from "./components/swichMUI";
 import { RatingMUI } from "./components/ratingMUI";
 import { AutoCompleteMUI } from "./components/autoCompleteMUI";
 import { LayoutMUI } from "./components/layoutMUI";
+import { CardMUI } from "./components/cardMUI";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <RatingMUI />
         <AutoCompleteMUI />
         <LayoutMUI/>
+        <CardMUI/>
       </Stack>
     </>
   );

@@ -6,6 +6,7 @@ import { SelectMUI } from "./components/selectMUI";
 import { RadioMUI } from "./components/radioMUI";
 import { CheckboxMUI } from "./components/checkboxMUI";
 import { SwichMUI } from "./components/swichMUI";
+import { RatingMUI } from "./components/ratingMUI";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <RadioMUI />
         <CheckboxMUI />
         <SwichMUI/>
+        <RatingMUI/>
       </Stack>
     </>
   );

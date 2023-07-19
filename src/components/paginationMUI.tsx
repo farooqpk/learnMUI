@@ -33,6 +33,9 @@ export const PaginationMUI = () => {
       } catch (error) {
         throw new Error("Failed to fetch data");
       }
+    },
+    {
+      keepPreviousData:true
     }
   );
 
